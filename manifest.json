@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Get random image by tag",
+  "description": "This extension allows the user get random gif image from Giphy by tag",
+  "version": "1.2",
+  "icons" : {"128":"128_Icon.png"},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
